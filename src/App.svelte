@@ -1,0 +1,29 @@
+<body>
+  <div id="container">
+      <header>
+        <h1>BMI Calculator</h1>
+      </header>
+    <main>
+      <h2>Type your data</h2>
+      <form action="#">
+        <div class="input-control">
+          <label for="name">Name: </label>
+          <input autocomplete="off" type="text" id="name" />
+        </div>
+        <div class="input-control">
+          <label for="weight">Weight: </label>
+          <input autocomplete="off" type="number" id="weight" />
+        </div>
+        <div class="input-control">
+          <label for="height">Height: </label>
+          <input autocomplete="off" type="number" step="0.01" id="height" />
+        </div>
+        <button id="btn_calculate">Calculate</button>
+      </form><section id="result">BMI: <span id="bmi">34.5</span></section>
+      </main>
+      <footer>
+        <p>R1 Software @ 2023</p>
+      </footer>
+    </div>
+
+</body>
